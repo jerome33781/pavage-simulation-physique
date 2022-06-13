@@ -21,12 +21,12 @@ On lance ainsi dans un premier temps la simulation sans points attracteur pour a
 
 ![image_distribution5](https://user-images.githubusercontent.com/83364235/173251412-96b84394-ac47-40ee-b84a-32aed433f34b.png)
 
-De sorte à améliorer la compléxité de la simulation et d'avoir quelque chose de fluide, on peut définir l'espace comme une grille à 2 dimensions,et dire que les force étant en 1/distance^2, les particules étant dans des cases ayant une distance de hamming supérieure à 1 n'agissent pas l'une sur l'autre. On évite alors énormément de vérification de proximité avec la bordure, et moins de forces négligeable dues à des particules éloignées.
+De sorte à améliorer la compléxité de la simulation et d'avoir quelque chose de fluide, on peut définir l'espace comme une grille à 2 dimensions,et dire que les forces étant en 1/distance^2, les particules étant dans des cases ayant une distance de Hamming supérieure à 1 n'agissent pas l'une sur l'autre. On évite alors énormément de vérification de proximité avec la bordure, et moins de forces négligeable dues à des particules éloignées.
 
 ## II. Evaluation d'un pavage
 
-Pour évaluer un pavage on pourrait calculer la couvrance du pavage, on pourrait pour cela considérer la surface de la france ramenée à l'échelle et la surface qu'occupent les zones d'activité des antennes au sein du territoire. 
-Une seconde facçon d'évaluer le pavage est liée à la densité de population et de service. C'est cette méthode que j'ai décidé d'approfondir. On défini à partir des cent villes une carte de densité de la population :  
+Pour évaluer un pavage on pourrait calculer sa couvrance et pour cela considérer la surface de la France ramenée à l'échelle et la surface qu'occupent les zones d'activité des hôpitaux au sein du territoire. 
+Une seconde façon d'évaluer le pavage est liée à la densité de population et de service. C'est cette méthode que j'ai décidé d'approfondir. On définit à partir des cent villes une carte de densité de la population :  
 
 ![densite_ville7](https://user-images.githubusercontent.com/83364235/173251762-b0a91309-b47a-4eff-9ba2-d9f31e8b75a2.png)
 
