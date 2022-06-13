@@ -1,12 +1,12 @@
 # pavage-simulation-physique
-Utilisation d'une simulation de force électrostatiques pour résoudre un problème de pavage
+Utilisation d'une simulation de forces électrostatiques pour résoudre un problème de pavage
 
-On se place dans cette étude dans le cadre de la france et l'on cherche à optimiser la répartition d'hopitaux sur le territoire. L'idée est d'utiliser la répulsion électrostatique pour que les hopitaux se repoussent et que le pavage couvre le plus de territoire, et d'utiliser l'attraction électrostatique pour que les antennes soient attirées par les villes.   
+On se place dans cette étude dans le cadre de la France et l'on cherche à optimiser la répartition d'hôpitaux sur le territoire. L'idée est d'utiliser la répulsion et l'attraction électrostatique, en considérant les hôpitaux comme des électrons et les villes commes des protons, pour que la répartition assure un service au plus grand nombre.   
 
 ## I. Simulation physique 
 
 On met tout d'abord en place les différents corps intervenant dans l'étude et les forces qu'ils les lient.   
-On se place dans l'approximation d'Euler : le système est immobile entre t et t+dt, j'ai utilisé premièrement des graphes matplotlib mis bout à bout puis le module tkinter pour implémenter l'animation de la simulation.   
+On se place dans l'approximation d'Euler : le système est immobile entre t et t+dt. J'ai utilisé premièrement des graphes matplotlib mis bout à bout puis le module tkinter pour implémenter l'animation de la simulation.   
 
 ![anim 2](https://user-images.githubusercontent.com/83364235/173251261-aeb90e93-2886-46c6-8052-7cdac8a67390.gif)  
 ![pavage m=cste=1000](https://user-images.githubusercontent.com/83364235/173251327-e2976ad6-e422-4e42-994b-e80608c17f03.png)  
