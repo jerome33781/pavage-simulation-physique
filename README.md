@@ -19,9 +19,12 @@ On se place dans le cadre du territoire français, ainsi j'ai récupéré les co
 
 On lance ainsi dans un premier temps la simulation sans points attracteur pour avoir une répartition initial uniforme, puis on rajoute les points attracteurs. On obtient une carte de la france de ce type. On remarque d'ailleurs que certains points sortent de la carte, cela s'explique par l'approximation d'Euler et le caractère divergent des forces lorsque les points se rapprochent.    
 
-étape 1 : distribution uniforme 
-![github unif](https://user-images.githubusercontent.com/83364235/173351483-c0307bbd-b7f9-4598-acde-888cfe7fc41d.PNG)  
-étape 2 : pavage final  ![github pavage](https://user-images.githubusercontent.com/83364235/173351616-36b20121-8dc0-4291-b780-fd6b0c5f0244.PNG)
+étape 1 : distribution uniforme   
+
+![github unif](https://user-images.githubusercontent.com/83364235/173351483-c0307bbd-b7f9-4598-acde-888cfe7fc41d.PNG)    
+ 
+étape 2 : pavage final   
+![github pavage](https://user-images.githubusercontent.com/83364235/173351616-36b20121-8dc0-4291-b780-fd6b0c5f0244.PNG)  
 
 
 
