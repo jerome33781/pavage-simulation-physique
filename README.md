@@ -15,9 +15,9 @@ premier test de la simulation physique :
 premier test d'un pavage dans un carré avec quelques villes :  
 ![pavage m=cste=1000](https://user-images.githubusercontent.com/83364235/173251327-e2976ad6-e422-4e42-994b-e80608c17f03.png)  
 
-On se place dans le cadre du territoire français, ainsi j'ai récupéré les coordonnées gps des 100 plus grandes villes francaises et leur population, de sorte à les placer sur la carte en tant que point attracteur. J'ai récupéré via une image du térritoire le contour de la france, de sorte à définir les bordures de l'espace.   
+On se place dans le cadre du territoire français, ainsi j'ai récupéré les coordonnées gps des 100 plus grandes villes francaises et leur population, de sorte à les placer sur la carte en tant que point attracteur. J'ai récupéré via une image du térritoire le contour de la France, de sorte à définir les bordures de l'espace.   
 
-On lance ainsi dans un premier temps la simulation sans points attracteur pour avoir une répartition initial uniforme, puis on rajoute les points attracteurs. On obtient une carte de la france de ce type. On remarque d'ailleurs que certains point sortent de la carte, cela s'explique par l'approximation d'euler et le caractère divergent des forces lorsque les points se rapprochent.    
+On lance ainsi dans un premier temps la simulation sans points attracteur pour avoir une répartition initial uniforme, puis on rajoute les points attracteurs. On obtient une carte de la france de ce type. On remarque d'ailleurs que certains points sortent de la carte, cela s'explique par l'approximation d'Euler et le caractère divergent des forces lorsque les points se rapprochent.    
 
 ![image_distribution5](https://user-images.githubusercontent.com/83364235/173251412-96b84394-ac47-40ee-b84a-32aed433f34b.png)
 
