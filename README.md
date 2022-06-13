@@ -10,7 +10,9 @@ On se place dans l'approximation d'Euler : le système est immobile entre t et t
 Les points bleus seront des hopitaux, les rouges les villes et en noir le contour.  
 
 premier test de la simulation physique :  
-![anim 2](https://user-images.githubusercontent.com/83364235/173251261-aeb90e93-2886-46c6-8052-7cdac8a67390.gif)  
+![anim 2](https://user-images.githubusercontent.com/83364235/173251261-aeb90e93-2886-46c6-8052-7cdac8a67390.gif)    
+
+premier test d'un pavage dans un carré avec quelques villes :  
 ![pavage m=cste=1000](https://user-images.githubusercontent.com/83364235/173251327-e2976ad6-e422-4e42-994b-e80608c17f03.png)  
 
 On se place dans le cadre du territoire français, ainsi j'ai récupéré les coordonnées gps des 100 plus grandes villes francaises et leur population, de sorte à les placer sur la carte en tant que point attracteur. J'ai récupéré via une image du térritoire le contour de la france, de sorte à définir les bordures de l'espace.   
