@@ -19,7 +19,13 @@ On se place dans le cadre du territoire français, ainsi j'ai récupéré les co
 
 On lance ainsi dans un premier temps la simulation sans points attracteur pour avoir une répartition initial uniforme, puis on rajoute les points attracteurs. On obtient une carte de la france de ce type. On remarque d'ailleurs que certains points sortent de la carte, cela s'explique par l'approximation d'Euler et le caractère divergent des forces lorsque les points se rapprochent.    
 
-![image_distribution5](https://user-images.githubusercontent.com/83364235/173251412-96b84394-ac47-40ee-b84a-32aed433f34b.png)
+étape 1 : distribution uniforme 
+![github unif](https://user-images.githubusercontent.com/83364235/173351483-c0307bbd-b7f9-4598-acde-888cfe7fc41d.PNG)  
+étape 2 : pavage final  ![github pavage](https://user-images.githubusercontent.com/83364235/173351616-36b20121-8dc0-4291-b780-fd6b0c5f0244.PNG)
+
+
+
+
 
 De sorte à améliorer la compléxité de la simulation et d'avoir quelque chose de fluide, on peut définir l'espace comme une grille à 2 dimensions,et dire que les forces étant en 1/distance^2, les particules étant dans des cases ayant une distance de Hamming supérieure à 1 n'agissent pas l'une sur l'autre. On évite alors énormément de vérification de proximité avec la bordure, et moins de forces négligeable dues à des particules éloignées.
 
@@ -39,7 +45,7 @@ En ramenant les intensités des cartes au même niveau, on peut alors comparer l
 
 ## Remarque finale 
 
-On pourrait plutôt que de trouver le meilleur pavage, effectuer une analyse prenant en compte un pavage déjà existant et cherchant le meilleur nouveau emplacement. Ainsi, connaissant les hopitaux français, on pourrait en déduire où placer le prochain hopital pour un pavage optimal. 
+On pourrait plutôt que de trouver le meilleur pavage, effectuer une analyse prenant en compte un pavage déjà existant et cherchant les meilleurs nouveaux emplacements. Ainsi, connaissant les hopitaux français, on pourrait en déduire où placer le prochain hopital pour un pavage optimal. 
 
 
 
