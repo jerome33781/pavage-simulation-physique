@@ -1,7 +1,7 @@
 # pavage-simulation-physique
 Utilisation d'une simulation de forces électrostatiques pour résoudre un problème de pavage
 
-On se place dans cette étude dans le cadre de la France et l'on cherche à optimiser la répartition d'hôpitaux sur le territoire. L'idée est d'utiliser la répulsion et l'attraction électrostatique, en considérant les hôpitaux comme des électrons et les villes commes des protons, pour que la répartition assure un service au plus grand nombre.   
+On se place dans cette étude dans le cadre de la France et l'on cherche à optimiser la répartition d'hôpitaux sur le territoire. L'idée est d'utiliser la répulsion et l'attraction électrostatique, en considérant les hôpitaux comme des électrons et les villes comme des protons, pour que la répartition assure un service au plus grand nombre.   
 
 ## I. Simulation physique 
 
