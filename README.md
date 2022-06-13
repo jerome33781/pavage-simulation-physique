@@ -39,7 +39,7 @@ En ramenant les intensités des cartes au même niveau, on peut alors comparer l
 
 ## Remarque finale 
 
-On pourrait plutôt que de trouver le meilleur pavage, effectuer une analyse prenant en compte un pavage déjà existant et cherchant le meilleur nouveau point. Ainsi, connaissant les hopitaux français, on pourrait en déduire où placer le prochain hopital pour un pavage optimal. 
+On pourrait plutôt que de trouver le meilleur pavage, effectuer une analyse prenant en compte un pavage déjà existant et cherchant le meilleur nouveau emplacement. Ainsi, connaissant les hopitaux français, on pourrait en déduire où placer le prochain hopital pour un pavage optimal. 
 
 
 
